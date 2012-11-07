@@ -7,8 +7,6 @@
 # All rights reserved - Do Not Redistribute
 #
 
-PROJECT_MOUNT = '/home/vagrant/simple'
-
 execute "do something quietly" do
     command "echo 'You will never see this.'"
 end
