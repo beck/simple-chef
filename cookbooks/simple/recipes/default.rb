@@ -9,11 +9,10 @@
 
 PROJECT_MOUNT = '/home/vagrant/simple'
 
-# do something stupid
 execute "do something quietly" do
-    command "echo \"You see nothing, I'm in the box.\""
+    command "echo 'You will never see this.'"
 end
 
 execute "do something loudly" do
-    #command "You get to see this!; exit 1"
+    command "echo 'You get to see this!'; exit 1"
 end
